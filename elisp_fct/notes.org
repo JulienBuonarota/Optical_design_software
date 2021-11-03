@@ -1,0 +1,23 @@
+* Actions possible dans l'edition du system
+new
+load
+plot
+info -> donne les infos du system 
+* Code elisp pour execute un scrip
+http://ergoemacs.org/emacs/elisp_perl_wrapper.htmlhttp://ergoemacs.org/emacs/elisp_perl_wrapper.html
+
+
+;; emacs wrapper to a script in python, ruby, etc.
+
+(defun do-something-region (startPos endPos)
+  "Do some text processing on region.
+This command calls the external script “wc”."
+  (interactive "r")
+  (let (cmdStr)
+    (setq cmdStr "/usr/bin/wc") ; full path to your script
+    (shell-command-on-region startPos endPos cmdStr nil t nil t)))
+
+
+* Edition des csv
+possibilite de le faire en org-mode
+il faut activer le mode
