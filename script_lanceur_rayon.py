@@ -17,7 +17,7 @@ import Object_surface as osur
 import Object_rayon as oray
 import Outils_lanceur_rayon as olr
 import Object_system as osys
-import Object_materiaux
+import Object_material
 
 
 ## Plan
