@@ -3,7 +3,7 @@ import ast
 import numpy as np
 import Outils_math as om
 import matplotlib.pyplot as plt
-import Object_materiaux as oma
+import Object_material as oma
 
 ## TODO make a more general surface class
 ## Sphere
