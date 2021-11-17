@@ -12,7 +12,7 @@ import numpy as np
 import Object_surface
 import Object_parametre_etude
 import Object_rayon as oray
-import Outils_lanceur_rayon as olray
+import Tool_ray_tracing as olray
 import Outils_plot as op
 import matplotlib.pyplot as plt
 import configuration_system

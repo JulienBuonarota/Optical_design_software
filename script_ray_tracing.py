@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import Object_surface as osur
 import Object_rayon as oray
-import Outils_lanceur_rayon as olr
+import Tool_ray_tracing as olr
 import Object_system as osys
 import Object_material
 
