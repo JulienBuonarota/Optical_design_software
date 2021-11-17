@@ -1,0 +1,10 @@
+- Avoir une complétion automatique des messages de commit avec les infos de performances du système. Avoir des
+fonctions de recherche dans l'historique des commits celon certain critères, exp : meilleur FTM, moindre coût, meilleur
+correction d'une abération spécifique, ...
+
+- Idées des fonctionnalités: 
+  - coloration des groupes de lentilles
+  - division d‘une lentille en deux lentilles
+  - Une surface peut suivre une surface du même type
+    
+Les symbols disponibles : & ~ " # ' { ( [ ] ) - | _ \ / @ = + , ; . : § *
